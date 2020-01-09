@@ -35,14 +35,15 @@ body{
     
 }
 
-main .boton{
-    position: fixed;
+.main .boton{
+    position: absolute;
+    top: 85%;
     left: 95%;
-    
 }
-.butom_top{
-position: relative;
-}
+
+
+
+
 /* Header */
 .nav_bar{
     position: absolute;
@@ -124,6 +125,7 @@ header * {
    padding-right: 50%;
    left: 250px;
    position: absolute;
+   padding-top: 50px;
 }
 
 .me{
@@ -174,4 +176,92 @@ header * {
 .fotos figure:hover{
  transform: scale(1.1);
     transition: 0.5s;
+}
+
+/* Musica */
+
+.musica {
+    background: rgb(34, 56, 55);
+    height: 50vh;
+    position: relative;
+    top:-20px;
+    padding: 50px;
+}
+.musica h2{
+    font-size: 30px;
+    padding-left: 45%;
+}
+
+.musica embed {
+    position: relative;
+    padding-top: 10;
+    left: 5%;
+    margin: 5%;
+    
+}
+
+/* POPUP*/
+
+
+
+.form {
+    background: #185355;
+    
+   
+    height: 50vh;
+    position: relative;
+    top:-20px;
+    padding: 50px;
+}
+
+.form h2{
+    font-size: 30px;
+    display: flex;
+    justify-content:center ;
+    top: -10px;
+    padding-bottom: 50px
+}
+
+
+
+.form input{
+    align-items: center;
+    justify-content:center ;
+    display: flex;
+    margin-left: 40%;
+    width: 500px;
+    margin-bottom: 20px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    
+}
+
+
+.form .btn-submit {
+    padding: 0 20px;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    border: none;
+    color: #fff;
+    background: rgb(84, 95, 247);
+    border-radius: 3px;
+    font-family: arial;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.form .btn-submit:hover {
+    background: rgb(84, 95, 247,0.9);
+}
+
+footer{
+    background: rgb(34, 34, 34);
+    color: rgb(126, 126, 126);
+    top: -20px;
+    
+    position: relative;
 }

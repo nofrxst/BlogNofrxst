@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nofrxst</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="icon" href="./images/logo.png">
 </head>
 <body>
     
@@ -15,8 +16,8 @@
             <ul>
                 <li><a href="#about">conoceme</a></li>
                 <li><a href="#fotos">fotos</a></li>
-                <li><a href="">Musica</a></li>
-                <li><a href="">Enviame tu opinion</a></li>
+                <li><a href="#musica">Musica</a></li>
+                <li><a href="#form">Deja un comentario</a></li>
             </ul>   
         </div>
         <img src="" alt="">
@@ -25,11 +26,11 @@
     </header>
     <!--  main  -->
     <main>
-       
+       <div class="main">
         <section id="about" class="about">
             <h2>Que es Nofrxst ? </h2>
             <p>Nofrxt es una marca personal, creada por Harold Alcantara con el proposito principal de compartir sus pasiones. <br>
-            Logrando con esto que muchas personas comprendan su forma de ver el mundo atravez de lo que el pueda transmitir mediante lo que hace (Fotos, Musica). </p>
+            Logrando con esto, que muchas personas comprendan su forma de ver el mundo a travez de lo que el pueda transmitir mediante lo que hace (Fotos, Musica). </p>
            <div class="me">
             <img src="./images/Harold.jpg" height="300px" width="300px" alt="harold alcantara">
                
@@ -43,13 +44,32 @@
          <figure><img src="./images/foto2.jpg"  width="250" height="300" alt=""></figure>
          <figure><img src="./images/foto3.jpg" width="250" height="300" alt=""></figure>
         </div>
-        <a href="#header" class="boton" ><img src="./images/botones/flecha arriba.png" width="50px" height="50px" alt=""></a>
         </section>
+
+        <section  id="musica" class="musica">
+        <h2>Musica</h2>
         
+        <embed width="560" height="315" src="https://www.youtube.com/embed/RzMF-d4_4h0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+        <embed width="560" height="315" src="https://www.youtube.com/embed/Eg_hHrGCM0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+            <a href="#header" class="boton" ><img src="./images/botones/flecha arriba.png" width="50px"  height="50px" alt=""></a>
+          
+        </section>
+    </div>
+
+    <!-- Form -->
+     <section class="form" id="form">
+         <h2>Dejame tu comentario</h2>
+        <form action="">
+            <input type="email" placeholder="Correo">
+            <input type="textarea" placeholder="Comentario">
+            <input class="btn-submit" type="submit" value="Enviar">
+        </form>
+     </section>
     </main>
     <!--  Footer  -->
     <footer>
-
+        <p>Derechos reservados | Harold Alcantara</p>
     </footer>
+   
 </body>
 </html>
