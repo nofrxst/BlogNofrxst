@@ -99,7 +99,7 @@ header * {
 /*Main*/
 .about{
     background-color: rgb(17, 75, 36);
-    height: 35vh;
+    height: 50vh;
     position: relative;
     padding: 50px;
     margin: 0;
@@ -165,6 +165,6 @@ header * {
     
 }
 .fotos figure:hover{
-    transform: rotate(5deg);
-    
+    transform: scale(1.1);
+    transition: 0.5s;
 }
